@@ -1,6 +1,5 @@
 package hexgui.hex;
 
-
 /**
  * A cell on a Hex board. In addition to each playable cell, HexPoints are created for each edge of
  * the board and for some special cases like swap moves, resignations, and forfeitures.
