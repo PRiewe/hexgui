@@ -11,9 +11,6 @@ import hexgui.hex.VC;
 import hexgui.util.BoardLayout;
 import hexgui.util.Pair;
 import hexgui.util.StringUtils;
-
-import javax.swing.*;
-import javax.swing.border.EtchedBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
@@ -26,6 +23,8 @@ import java.net.URL;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.Vector;
+import javax.swing.*;
+import javax.swing.border.EtchedBorder;
 
 // ----------------------------------------------------------------------------
 

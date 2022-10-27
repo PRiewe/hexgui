@@ -1,5 +1,7 @@
 package hexgui.gui;
 
+import static java.text.MessageFormat.format;
+
 import hexgui.game.Clock;
 import hexgui.game.GameInfo;
 import hexgui.game.Node;
@@ -12,8 +14,6 @@ import hexgui.util.Pair;
 import hexgui.util.StreamCopy;
 import hexgui.util.StringUtils;
 import hexgui.version.Version;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -26,8 +26,7 @@ import java.net.UnknownHostException;
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Semaphore;
-
-import static java.text.MessageFormat.format;
+import javax.swing.*;
 
 // ----------------------------------------------------------------------------
 

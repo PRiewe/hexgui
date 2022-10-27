@@ -2,17 +2,16 @@
 
 package hexgui.gui;
 
+import static hexgui.gui.GuiUtil.insertLineBreaks;
+
 import hexgui.util.Platform;
 import hexgui.util.PrefUtil;
 import hexgui.util.StringUtils;
-
-import javax.swing.*;
 import java.awt.*;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.prefs.Preferences;
-
-import static hexgui.gui.GuiUtil.insertLineBreaks;
+import javax.swing.*;
 
 /** Simple message dialogs. */
 public final class MessageDialogs {

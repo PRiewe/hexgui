@@ -5,7 +5,6 @@
 package hexgui.gui;
 
 import hexgui.util.PrefUtil;
-
 import java.util.Vector;
 import java.util.prefs.Preferences;
 

@@ -7,7 +7,6 @@ package hexgui.gui;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.util.RadialGradientPaint;
-
 import java.awt.*;
 import java.awt.geom.Point2D;
 

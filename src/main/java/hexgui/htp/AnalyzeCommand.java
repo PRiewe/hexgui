@@ -2,15 +2,14 @@
 
 package hexgui.htp;
 
+import static hexgui.hex.HexColor.BLACK;
+import static hexgui.hex.HexColor.WHITE;
+
 import hexgui.hex.ConstPointList;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.hex.PointList;
-
 import java.io.File;
-
-import static hexgui.hex.HexColor.BLACK;
-import static hexgui.hex.HexColor.WHITE;
 
 /**
  * Concrete analyze command including data for wildcard replacements. See GoGui documentation,

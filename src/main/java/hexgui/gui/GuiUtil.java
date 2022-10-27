@@ -3,17 +3,16 @@
 package hexgui.gui;
 
 import hexgui.util.Platform;
-
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.io.IOException;
+import java.net.URL;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyleContext;
 import javax.swing.text.StyledDocument;
-import java.awt.*;
-import java.awt.datatransfer.*;
-import java.io.IOException;
-import java.net.URL;
 
 /** GUI utility classes and static functions. */
 public class GuiUtil {

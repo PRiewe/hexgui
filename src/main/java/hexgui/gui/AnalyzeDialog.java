@@ -2,6 +2,8 @@
 
 package hexgui.gui;
 
+import static hexgui.hex.HexColor.*;
+
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.htp.AnalyzeCommand;
@@ -9,16 +11,13 @@ import hexgui.htp.AnalyzeDefinition;
 import hexgui.htp.AnalyzeType;
 import hexgui.util.Platform;
 import hexgui.util.PrefUtil;
-
-import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 import java.util.ArrayList;
-
-import static hexgui.hex.HexColor.*;
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 /** Dialog for selecting an AnalyzeCommand. */
 public final class AnalyzeDialog extends JDialog implements ActionListener, ListSelectionListener {

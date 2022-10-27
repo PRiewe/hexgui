@@ -6,10 +6,9 @@ package hexgui.gui;
 
 import hexgui.game.Clock;
 import hexgui.hex.HexColor;
-
-import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
+import javax.swing.*;
 
 /** Displays info about the current game. */
 public class GameInfoPanel extends JPanel {

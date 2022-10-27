@@ -4,11 +4,10 @@ package hexgui.gui;
 
 import hexgui.sgf.GameFileFilter;
 import hexgui.util.Platform;
-
-import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.text.MessageFormat;
+import javax.swing.*;
 
 /** File dialogs. */
 public final class FileDialogs {

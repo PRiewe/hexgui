@@ -7,10 +7,9 @@ package hexgui;
 import hexgui.gui.HexGui;
 import hexgui.util.Options;
 import hexgui.version.Version;
-
-import javax.swing.*;
 import java.io.File;
 import java.util.ArrayList;
+import javax.swing.*;
 
 public final class Main {
   static final String LOOKANDFEEL = "System";

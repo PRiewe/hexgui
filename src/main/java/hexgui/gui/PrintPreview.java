@@ -9,16 +9,16 @@
 
 package hexgui.gui;
 
-import javax.swing.*;
-import javax.swing.border.AbstractBorder;
-import javax.swing.border.LineBorder;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.awt.print.*;
+import javax.swing.*;
+import javax.swing.border.AbstractBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableModel;
 
 public class PrintPreview extends JPanel implements ActionListener {
   static final double INITIAL_SCALE_DIVISOR = 1.0; // scale factor

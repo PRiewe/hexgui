@@ -4,8 +4,8 @@
 
 package hexgui.gui;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 /** Displays a simple error message dialog. */
 public class ShowError {

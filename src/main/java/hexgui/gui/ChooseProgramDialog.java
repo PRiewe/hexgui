@@ -4,12 +4,12 @@
 
 package hexgui.gui;
 
-import javax.swing.*;
-import javax.swing.text.html.HTMLEditorKit;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Vector;
+import javax.swing.*;
+import javax.swing.text.html.HTMLEditorKit;
 
 /** The actual dialog. */
 class ChooseProgramDialog extends JDialog implements ActionListener {

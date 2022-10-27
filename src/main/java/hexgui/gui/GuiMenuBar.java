@@ -4,11 +4,10 @@
 
 package hexgui.gui;
 
-
-import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.util.Enumeration;
+import javax.swing.*;
 
 // ----------------------------------------------------------------------------
 

@@ -5,12 +5,11 @@
 package hexgui.gui;
 
 import hexgui.htp.HtpController;
-
-import javax.swing.*;
-import javax.swing.text.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
+import javax.swing.text.*;
 
 /** Non-modal dialog displaying the communication between HexGui and a HTP compatible program. */
 public class HtpShell extends JDialog implements ActionListener, HtpController.IOInterface {

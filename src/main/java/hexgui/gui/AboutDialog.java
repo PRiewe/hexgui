@@ -1,14 +1,13 @@
 package hexgui.gui;
 
 import hexgui.version.Version;
-
-import javax.swing.*;
-import javax.swing.border.EtchedBorder;
-import javax.swing.text.html.HTMLEditorKit;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URL;
+import javax.swing.*;
+import javax.swing.border.EtchedBorder;
+import javax.swing.text.html.HTMLEditorKit;
 
 // ----------------------------------------------------------------------------
 

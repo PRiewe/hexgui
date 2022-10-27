@@ -10,7 +10,6 @@ import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.hex.Move;
 import hexgui.version.Version;
-
 import java.awt.*;
 import java.io.OutputStream;
 import java.io.PrintStream;

@@ -5,7 +5,6 @@
 package hexgui.htp;
 
 import hexgui.util.StringUtils;
-
 import java.io.*;
 
 // ----------------------------------------------------------------------------

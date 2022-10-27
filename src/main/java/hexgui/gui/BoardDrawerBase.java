@@ -7,11 +7,10 @@ package hexgui.gui;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.util.Pair;
-
-import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
 import java.util.Vector;
+import javax.swing.*;
 
 // ----------------------------------------------------------------------------
 

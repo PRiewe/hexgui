@@ -5,12 +5,11 @@
 package hexgui.gui;
 
 import hexgui.util.SpringUtilities;
-
-import javax.swing.*;
-import javax.swing.text.html.HTMLEditorKit;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
+import javax.swing.text.html.HTMLEditorKit;
 
 /** Dialog for adding/editing new programs. */
 public final class EditProgramDialog extends JDialog implements ActionListener {

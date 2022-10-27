@@ -2,14 +2,15 @@
 
 package hexgui.gui;
 
+import static java.lang.Math.max;
+import static javax.swing.JOptionPane.*;
+
 import hexgui.htp.AnalyzeUtil;
 import hexgui.htp.HtpController;
 import hexgui.htp.HtpError;
 import hexgui.htp.ParameterType;
 import hexgui.util.ObjectUtil;
 import hexgui.util.StringUtils;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -20,9 +21,7 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.text.MessageFormat;
 import java.util.ArrayList;
-
-import static java.lang.Math.max;
-import static javax.swing.JOptionPane.*;
+import javax.swing.*;
 
 /** Dialog for editing parameters in response to an analyze command of type <i>param</i>. */
 public class ParameterDialog {

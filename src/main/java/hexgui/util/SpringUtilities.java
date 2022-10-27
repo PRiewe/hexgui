@@ -31,8 +31,8 @@
 
 package hexgui.util;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 /**
  * A 1.4 file that provides utility methods for creating form- or grid-style layouts with
