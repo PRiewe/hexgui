@@ -5,10 +5,16 @@
 package hexgui.gui;
 
 import hexgui.game.Node;
-import hexgui.hex.*;
-import hexgui.util.*;
+import hexgui.hex.HexColor;
+import hexgui.hex.HexPoint;
+import hexgui.hex.VC;
+import hexgui.util.BoardLayout;
+import hexgui.util.Pair;
+import hexgui.util.StringUtils;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;

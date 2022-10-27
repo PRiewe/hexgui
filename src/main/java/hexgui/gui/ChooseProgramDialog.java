@@ -4,9 +4,9 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Vector;
 import javax.swing.*;
 import javax.swing.text.html.HTMLEditorKit;

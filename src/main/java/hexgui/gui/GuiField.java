@@ -4,17 +4,11 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
-import hexgui.util.*;
-import java.awt.AlphaComposite;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.event.*;
-import java.awt.geom.*;
-import javax.swing.*;
+import hexgui.hex.HexColor;
+import hexgui.hex.HexPoint;
+import hexgui.util.RadialGradientPaint;
+import java.awt.*;
+import java.awt.geom.Point2D;
 
 // ----------------------------------------------------------------------------
 

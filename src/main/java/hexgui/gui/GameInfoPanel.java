@@ -7,10 +7,7 @@ package hexgui.gui;
 import hexgui.game.Clock;
 import hexgui.hex.HexColor;
 import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
 import java.net.URL;
-import java.util.*;
 import javax.swing.*;
 
 /** Displays info about the current game. */

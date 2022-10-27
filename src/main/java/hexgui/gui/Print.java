@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 package hexgui.gui;
 
-import java.awt.Component;
+import java.awt.*;
 import java.awt.print.Printable;
 import java.awt.print.PrinterJob;
 

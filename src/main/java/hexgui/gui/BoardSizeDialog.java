@@ -4,9 +4,7 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 /** Dialog for entering a board size. */

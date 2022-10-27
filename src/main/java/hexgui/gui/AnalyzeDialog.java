@@ -2,51 +2,20 @@
 
 package hexgui.gui;
 
-import static hexgui.hex.HexColor.BLACK;
-import static hexgui.hex.HexColor.EMPTY;
-import static hexgui.hex.HexColor.WHITE;
+import static hexgui.hex.HexColor.*;
 
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.htp.AnalyzeCommand;
 import hexgui.htp.AnalyzeDefinition;
 import hexgui.htp.AnalyzeType;
-// import hexgui.htp.GtpResponseFormatError;
-// import hexgui.htp.GtpUtil;
 import hexgui.util.Platform;
 import hexgui.util.PrefUtil;
-import java.awt.BorderLayout;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Frame;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.*;
+import java.awt.event.*;
 import java.io.File;
 import java.util.ArrayList;
-import javax.swing.Box;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
+import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 

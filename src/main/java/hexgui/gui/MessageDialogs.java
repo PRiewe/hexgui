@@ -7,16 +7,11 @@ import static hexgui.gui.GuiUtil.insertLineBreaks;
 import hexgui.util.Platform;
 import hexgui.util.PrefUtil;
 import hexgui.util.StringUtils;
-import java.awt.Component;
+import java.awt.*;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.prefs.Preferences;
-import javax.swing.Box;
-import javax.swing.JCheckBox;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 /** Simple message dialogs. */
 public final class MessageDialogs {

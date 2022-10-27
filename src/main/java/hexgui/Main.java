@@ -7,10 +7,8 @@ package hexgui;
 import hexgui.gui.HexGui;
 import hexgui.util.Options;
 import hexgui.version.Version;
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.util.ArrayList;
 import javax.swing.*;
 
 public final class Main {

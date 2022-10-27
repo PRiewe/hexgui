@@ -5,10 +5,10 @@
 package hexgui.gui;
 
 import hexgui.game.Node;
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.net.URL;
-import java.util.*;
 import javax.swing.*;
 
 // ----------------------------------------------------------------------------

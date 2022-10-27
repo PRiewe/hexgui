@@ -4,7 +4,7 @@
 
 package hexgui.game;
 
-import java.awt.Dimension;
+import java.awt.*;
 
 // ----------------------------------------------------------------------------
 

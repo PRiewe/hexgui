@@ -4,9 +4,7 @@ package hexgui.gui;
 
 import hexgui.hex.HexPoint;
 import hexgui.htp.AnalyzeType;
-// import hexgui.htp.GtpUtil;
-// import hexgui.gui.GuiBoardUtil;
-import java.awt.Frame;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 

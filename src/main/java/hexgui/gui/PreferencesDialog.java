@@ -4,9 +4,11 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import javax.swing.*;
 
 /** Dialog for changes user preferences. */

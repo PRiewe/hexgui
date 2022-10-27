@@ -3,10 +3,7 @@
 package hexgui.gui;
 
 import static java.lang.Math.max;
-import static javax.swing.JOptionPane.OK_CANCEL_OPTION;
-import static javax.swing.JOptionPane.PLAIN_MESSAGE;
-import static javax.swing.JOptionPane.UNINITIALIZED_VALUE;
-import static javax.swing.JOptionPane.VALUE_PROPERTY;
+import static javax.swing.JOptionPane.*;
 
 import hexgui.htp.AnalyzeUtil;
 import hexgui.htp.HtpController;
@@ -14,12 +11,7 @@ import hexgui.htp.HtpError;
 import hexgui.htp.ParameterType;
 import hexgui.util.ObjectUtil;
 import hexgui.util.StringUtils;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Frame;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
@@ -29,16 +21,7 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.text.MessageFormat;
 import java.util.ArrayList;
-import javax.swing.Box;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JSeparator;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
+import javax.swing.*;
 
 /** Dialog for editing parameters in response to an analyze command of type <i>param</i>. */
 public class ParameterDialog {
