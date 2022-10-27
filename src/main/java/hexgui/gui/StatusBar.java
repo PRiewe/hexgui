@@ -4,14 +4,11 @@
 
 package hexgui.gui;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.util.*;
 import javax.swing.*;
 import javax.swing.border.EtchedBorder;
+import java.awt.*;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 // ----------------------------------------------------------------------------
 

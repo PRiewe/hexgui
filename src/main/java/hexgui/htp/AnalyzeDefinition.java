@@ -4,6 +4,7 @@ package hexgui.htp;
 
 import hexgui.util.ErrorMessage;
 import hexgui.util.StringUtils;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.Reader;

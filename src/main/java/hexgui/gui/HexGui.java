@@ -1,16 +1,10 @@
 package hexgui.gui;
 
-import static java.text.MessageFormat.format;
-
 import hexgui.game.Clock;
 import hexgui.game.GameInfo;
 import hexgui.game.Node;
 import hexgui.hex.*;
-import hexgui.htp.AnalyzeCommand;
-import hexgui.htp.AnalyzeDefinition;
-import hexgui.htp.AnalyzeType;
-import hexgui.htp.HtpController;
-import hexgui.htp.HtpError;
+import hexgui.htp.*;
 import hexgui.sgf.SgfReader;
 import hexgui.sgf.SgfWriter;
 import hexgui.util.ErrorMessage;
@@ -18,14 +12,22 @@ import hexgui.util.Pair;
 import hexgui.util.StreamCopy;
 import hexgui.util.StringUtils;
 import hexgui.version.Version;
+
+import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.*;
-import java.net.*;
+import java.net.Socket;
+import java.net.URL;
+import java.net.UnknownHostException;
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Semaphore;
-import javax.swing.*;
+
+import static java.text.MessageFormat.format;
 
 // ----------------------------------------------------------------------------
 

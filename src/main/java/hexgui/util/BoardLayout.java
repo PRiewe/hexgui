@@ -5,8 +5,6 @@
 package hexgui.util;
 
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
 
 public class BoardLayout implements LayoutManager {
   public void addLayoutComponent(String name, Component comp) {}

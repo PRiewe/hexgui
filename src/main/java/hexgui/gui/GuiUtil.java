@@ -3,40 +3,17 @@
 package hexgui.gui;
 
 import hexgui.util.Platform;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.KeyboardFocusManager;
-import java.awt.RenderingHints;
-import java.awt.Toolkit;
-import java.awt.Window;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.ClipboardOwner;
-import java.awt.datatransfer.DataFlavor;
-import java.awt.datatransfer.StringSelection;
-import java.awt.datatransfer.Transferable;
-import java.awt.datatransfer.UnsupportedFlavorException;
-import java.io.IOException;
-import java.net.URL;
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.ImageIcon;
-import javax.swing.InputMap;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JTextField;
-import javax.swing.JTextPane;
-import javax.swing.KeyStroke;
-import javax.swing.SwingUtilities;
+
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyleContext;
 import javax.swing.text.StyledDocument;
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.io.IOException;
+import java.net.URL;
 
 /** GUI utility classes and static functions. */
 public class GuiUtil {

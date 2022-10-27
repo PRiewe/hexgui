@@ -4,8 +4,7 @@
 
 package hexgui.util;
 
-import java.awt.Color;
-import java.awt.PaintContext;
+import java.awt.*;
 import java.awt.geom.Point2D;
 import java.awt.image.ColorModel;
 import java.awt.image.Raster;

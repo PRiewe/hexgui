@@ -4,10 +4,8 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
 
 /** Dialog for entering a remote program hostname. FIXME: allow port to be set. */
 public final class RemoteProgramDialog {

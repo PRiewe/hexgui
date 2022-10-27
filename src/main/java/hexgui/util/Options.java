@@ -1,7 +1,9 @@
 package hexgui.util;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
 
 /** Parser for command line options. Options begin with a single '-' character. */
 public class Options {

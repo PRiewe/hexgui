@@ -4,9 +4,7 @@
 
 package hexgui.gui;
 
-import java.io.*;
-import java.util.*;
-import java.util.prefs.*;
+import java.util.prefs.Preferences;
 
 // ----------------------------------------------------------------------------
 

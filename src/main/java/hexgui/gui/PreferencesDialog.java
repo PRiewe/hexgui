@@ -4,10 +4,12 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 
 /** Dialog for changes user preferences. */
 public final class PreferencesDialog extends JDialog implements ItemListener, ActionListener {

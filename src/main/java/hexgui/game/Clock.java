@@ -4,12 +4,9 @@
 
 package hexgui.game;
 
-import hexgui.hex.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import java.net.*;
-import javax.swing.Timer;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Clock implements ActionListener {
   public interface Listener {

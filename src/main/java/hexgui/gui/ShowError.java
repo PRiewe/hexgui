@@ -4,8 +4,8 @@
 
 package hexgui.gui;
 
-import java.awt.Component;
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.awt.*;
 
 /** Displays a simple error message dialog. */
 public class ShowError {

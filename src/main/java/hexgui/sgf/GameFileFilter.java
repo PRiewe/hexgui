@@ -3,8 +3,9 @@
 package hexgui.sgf;
 
 import hexgui.util.FileUtil;
-import java.io.File;
+
 import javax.swing.filechooser.FileFilter;
+import java.io.File;
 
 /** Swing file filter for SGF or Jago XML files. */
 public class GameFileFilter extends FileFilter {

@@ -4,14 +4,17 @@
 
 package hexgui.gui;
 
-import hexgui.hex.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
+import hexgui.hex.VC;
+
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import javax.swing.text.*;
+import java.awt.*;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.Vector;
 
 // ----------------------------------------------------------------------------
 

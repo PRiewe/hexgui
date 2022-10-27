@@ -3,6 +3,7 @@ package hexgui.util;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.hex.VC;
+
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Vector;

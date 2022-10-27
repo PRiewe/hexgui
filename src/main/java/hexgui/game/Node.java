@@ -7,6 +7,7 @@ package hexgui.game;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.hex.Move;
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;

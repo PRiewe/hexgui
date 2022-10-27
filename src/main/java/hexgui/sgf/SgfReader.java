@@ -4,16 +4,18 @@
 
 package hexgui.sgf;
 
-import static java.text.MessageFormat.format;
-
 import hexgui.game.GameInfo;
 import hexgui.game.Node;
 import hexgui.hex.HexColor;
 import hexgui.hex.HexPoint;
 import hexgui.hex.Move;
-import java.awt.Dimension;
+
+import java.awt.*;
 import java.io.*;
-import java.util.*;
+import java.util.Locale;
+import java.util.Vector;
+
+import static java.text.MessageFormat.format;
 
 // ----------------------------------------------------------------------------
 

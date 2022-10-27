@@ -4,13 +4,10 @@
 
 package hexgui.gui;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import java.util.*;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import java.awt.*;
 
 /** Displays comment for current node. */
 public class Comment extends JScrollPane implements DocumentListener {
